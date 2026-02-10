@@ -1,4 +1,7 @@
 PODS:
+  - AppsFlyerFramework (6.17.8):
+    - AppsFlyerFramework/Main (= 6.17.8)
+  - AppsFlyerFramework/Main (6.17.8)
   - boost (1.84.0)
   - DoubleConversion (1.1.6)
   - fast_float (6.1.4)
@@ -1286,6 +1289,9 @@ PODS:
     - ReactCommon/turbomodule/core
   - react-native-apple-ads-attribution (1.0.4):
     - React-Core
+  - react-native-appsflyer (6.17.8):
+    - AppsFlyerFramework (= 6.17.8)
+    - React
   - react-native-onesignal (5.3.0):
     - OneSignalXCFramework (= 5.4.0)
     - React (< 1.0.0, >= 0.13.0)
@@ -1732,6 +1738,8 @@ PODS:
     - ReactCommon/turbomodule/core
     - Yoga
   - SocketRocket (0.7.1)
+  - sparkfabrik-react-native-idfa-aaid (1.2.0):
+    - React
   - Yoga (0.0.0)
 
 DEPENDENCIES:
@@ -1775,6 +1783,7 @@ DEPENDENCIES:
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
   - React-microtasksnativemodule (from `../node_modules/react-native/ReactCommon/react/nativemodule/microtasks`)
   - "react-native-apple-ads-attribution (from `../node_modules/@vladikstyle/react-native-apple-ads-attribution`)"
+  - react-native-appsflyer (from `../node_modules/react-native-appsflyer`)
   - react-native-onesignal (from `../node_modules/react-native-onesignal`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - react-native-webview (from `../node_modules/react-native-webview`)
@@ -1809,10 +1818,12 @@ DEPENDENCIES:
   - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - RNDeviceInfo (from `../node_modules/react-native-device-info`)
   - RNScreens (from `../node_modules/react-native-screens`)
+  - "sparkfabrik-react-native-idfa-aaid (from `../node_modules/@sparkfabrik/react-native-idfa-aaid`)"
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
   trunk:
+    - AppsFlyerFramework
     - OneSignalXCFramework
     - SocketRocket
 
@@ -1894,6 +1905,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/microtasks"
   react-native-apple-ads-attribution:
     :path: "../node_modules/@vladikstyle/react-native-apple-ads-attribution"
+  react-native-appsflyer:
+    :path: "../node_modules/react-native-appsflyer"
   react-native-onesignal:
     :path: "../node_modules/react-native-onesignal"
   react-native-safe-area-context:
@@ -1962,10 +1975,13 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-device-info"
   RNScreens:
     :path: "../node_modules/react-native-screens"
+  sparkfabrik-react-native-idfa-aaid:
+    :path: "../node_modules/@sparkfabrik/react-native-idfa-aaid"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
+  AppsFlyerFramework: 63577b60d6b9fcdab60135289979e7d1c9ec79b9
   boost: 7e761d76ca2ce687f7cc98e698152abd03a18f90
   DoubleConversion: cb417026b2400c8f53ae97020b2be961b59470cb
   fast_float: 06eeec4fe712a76acc9376682e4808b05ce978b6
@@ -2005,6 +2021,7 @@ SPEC CHECKSUMS:
   React-Mapbuffer: b6619632c9800e300a9dcfb5139009416cec6392
   React-microtasksnativemodule: e99c1d7791f5e8d5be370b78e02433e64d2391d8
   react-native-apple-ads-attribution: 08dcd153b8b903bbb6da927115f9e8d17fd211c9
+  react-native-appsflyer: f228f08c1e6611209a4869ccae7e3b91dc716f3f
   react-native-onesignal: 68c8423063cc8ead827e09bc71d139c14850feaf
   react-native-safe-area-context: 337fce5941460e2605fb3c39dbb0f6e0765c8010
   react-native-webview: 4c1156463f8031c30ea99262317ac3d0a5940211
@@ -2040,6 +2057,7 @@ SPEC CHECKSUMS:
   RNDeviceInfo: 53f9c84e28e854a308d3e548e25ef120b4615531
   RNScreens: 3bd1e11f556f1ac51ea88223cadc9f6a95cd33fa
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
+  sparkfabrik-react-native-idfa-aaid: 1b72a6264a2175473e309ffa6434db87c58af264
   Yoga: b94ff2d7559cb66837c97a3f394ddb817faad4d6
 
 PODFILE CHECKSUM: cf5ee3c661362313392a2065f93676965b267be2
